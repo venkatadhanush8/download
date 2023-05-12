@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-image: url('images/new background.webp');
+            }
+            header{
+                text-align: center;
+                color: rgb(52, 38, 38);
+            }
+            p{
+                display: inline-block;
+                padding-right: 20px;
+                padding-left: 15px;
+                margin-right: 0px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .text{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 20px;
+                font-weight: 1000;
+            }
+            .text::first-letter{
+                font-size: 35px;
+                color: white;
+            }
+            .text-chem{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 20px;
+                font-weight: 1000;
+                color: rgb(5, 159, 255);
+            }
+            .text-chem::first-letter{
+                font-size: 40px;
+                color: white;
+            }
+            .container{
+                display: flex;
+                background-color: rgb(214, 236, 104);
+                border-radius: 25px;
+                width: 610px;
+                
+            }
+            .container-2{
+                display: flexbox;
+                background-color: rgb(214, 236, 144);
+                border-radius: 25px;
+                margin-top: 8px;
+                width: 510px;
+                height: 260px;
+            }
+            .container-botany{
+                display: flexbox;
+                background-image: url('background-2.webp');
+                border-radius: 25px;
+                margin-top: 8px;
+                width: 510px;
+                height: auto;
+                background-size: fill;
+                font-weight: bold;
+            }
+            .container-zoology{
+                display: flexbox;
+                background-image: url('zoology-5.jpg');
+                border-radius: 25px;
+                margin-top: 8px;
+                width: 510px;
+                height: auto;
+                background-size: cover;
+                font-weight: bold;
+                color: white;
+            }
+            .container-chemistry{
+                display: flexbox;
+                background-image: url('chem-2.jpg');
+                border-radius: 25px;
+                margin-top: 8px;
+                width: 510px;
+                height: auto;
+                color: white;
+                font-weight: bold;
+            }
+            .btn{
+                display: block;
+                padding: auto;
+                margin: 13px;
+                background-color: rgb(7, 121, 79);
+                color: aliceblue;
+                border: none;
+                border-radius: 25px;
+                cursor: pointer;
+                height: 25px;
+                margin-left: 50px;
+                opacity: 100%;
+            }
+            .btn-2{
+               display: inline-block;
+               background-color: #3e75d5;
+               border: none;
+               color: white;
+               padding: 10px 10px;
+               text-align: center;
+               text-decoration: none;
+               display: inline-block;
+               font-size: 16px;
+               margin-left: 10px;
+               border-radius: 25px;
+               margin-right: 250px;
+               margin-left: 10px;
+               margin-top: 7px;
+            }
+            .btn-2:active{
+                background-color: gray;
+                color: black;
+            }
+            .btn-2:hover{
+                background-color: rgb(4, 81, 4);
+            }
+            a{
+                text-decoration: none;
+                border-bottom: none;
+                color: black;
+            }
+            
+        </style>
+    </head>
+    <header> <h1>Download page</h1></header>
+    <body>
+      <div class="container">
+           <p>Time table</p><a href="pdf file/time table-19.pdf" download=""><button class="btn-2">download</button></a>
+     </div>
+     <p class="text">Botany</p>
+     <section class="container-botany">
+           <p>Botany paper-4 record</p><a href="pdf file/botany paper 4 record.pdf" download=""><button class="btn-2">Download</button></a><hr>
+           <p>Botany unit-1 notes</p><a href="botany unit-1.pdf" download=""><button class="btn-2">Download</button></a>
+           <!--  <p>Botany paper-5 record</p><a href="pdf file/botany paper -5 record.pdf" download=""><button class="btn-2">Download</button></a>
+           <p>Botany unit-3</p><a href="" download=""><button class="btn-2">Download</button></a>
+            <p>Botany unit-4</p><a href="" download=""><button class="btn-2">Download</button></a>
+            <p>Botany unit-5</p><a href="" download=""><button class="btn-2">Download</button></a> -->
+     </section>
+
+     <p class="text">Zoology</p>
+     <section class="container-zoology">
+            <!--<p>Zoology paper-4 record</p><a href="pdf file/zoology 4 Record .pdf" download=""><button class="btn-2">Download</button></a><hr>-->
+            <p>Zoology paper-5 syllabus</p><a href="pdf file/zoology-5 syllabus.jpg" download=""><button class="btn-2">Download</button></a><hr>
+           <!-- <p>Zoology paper-5 record</p><a href="" download=""><button class="btn-2">Download</button></a>
+           
+            <p>Zoology unit-4</p><a href="" download=""><button class="btn-2">Download</button></a>
+            <p>Zoology unit-5</p><a href="" download=""><button class="btn-2">Download</button></a>-->
+ </section>
+     <p class="text-chem">chemistry</p>
+    <section class="container-chemistry">
+            <p>chemistry paper-4 record</p><a href="pdf file/chemistry record 4.pdf" download=""><button class="btn-2">Download</button></a>
+           <!-- <p>chemistry (2)</p><a href="" download=""><button class="btn-2">Download</button></a>
+            <p>chemistry (3)</p><a href="" download=""><button class="btn-2">Download</button></a>
+            <p>chemistry (4)</p><a href="" download=""><button class="btn-2">Download</button></a>
+            <p>chemistry (5)</p><a href="" download=""><button class="btn-2">Download</button></a>-->
+    </section>
+    </body>
+</html>
